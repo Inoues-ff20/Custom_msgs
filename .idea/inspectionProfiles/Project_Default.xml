@@ -1,0 +1,69 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="ClangTidyInspection" enabled="true" level="ERROR" enabled_by_default="true">
+      <option name="clangTidyCheckOptions">
+        <list>
+          <ClangTidyCheckOption>
+            <option name="optionName" value="readability-identifier-naming.ClassCase" />
+            <option name="optionValue" value="CamelCase" />
+          </ClangTidyCheckOption>
+          <ClangTidyCheckOption>
+            <option name="optionName" value="readability-identifier-naming.ConstantCase" />
+            <option name="optionValue" value="UPPER_CASE" />
+          </ClangTidyCheckOption>
+          <ClangTidyCheckOption>
+            <option name="optionName" value="readability-identifier-naming.EnumCase" />
+            <option name="optionValue" value="CamelCase" />
+          </ClangTidyCheckOption>
+          <ClangTidyCheckOption>
+            <option name="optionName" value="readability-identifier-naming.FunctionCase" />
+            <option name="optionValue" value="camelBack" />
+          </ClangTidyCheckOption>
+          <ClangTidyCheckOption>
+            <option name="optionName" value="readability-identifier-naming.MemberCase" />
+            <option name="optionValue" value="lower_case" />
+          </ClangTidyCheckOption>
+          <ClangTidyCheckOption>
+            <option name="optionName" value="readability-identifier-naming.ParameterCase" />
+            <option name="optionValue" value="lower_case" />
+          </ClangTidyCheckOption>
+          <ClangTidyCheckOption>
+            <option name="optionName" value="readability-identifier-naming.UnionCase" />
+            <option name="optionValue" value="CamelCase" />
+          </ClangTidyCheckOption>
+          <ClangTidyCheckOption>
+            <option name="optionName" value="readability-identifier-naming.VariableCase" />
+            <option name="optionValue" value="lower_case" />
+          </ClangTidyCheckOption>
+          <ClangTidyCheckOption>
+            <option name="optionName" value="readability-identifier-naming.TemplateParameterCase" />
+            <option name="optionValue" value="CamelCase" />
+          </ClangTidyCheckOption>
+          <ClangTidyCheckOption>
+            <option name="optionName" value="readability-identifier-naming.ValueTemplateParameterCase" />
+            <option name="optionValue" value="UPPER_CASE" />
+          </ClangTidyCheckOption>
+          <ClangTidyCheckOption>
+            <option name="optionName" value="readability-identifier-naming.ValueTemplateParameterPrefix" />
+          </ClangTidyCheckOption>
+          <ClangTidyCheckOption>
+            <option name="optionName" value="readability-identifier-naming.ConstexprVariableCase" />
+            <option name="optionValue" value="UPPER_CASE" />
+          </ClangTidyCheckOption>
+          <ClangTidyCheckOption>
+            <option name="optionName" value="readability-identifier-naming.ConstantParameterCase" />
+            <option name="optionValue" value="lower_case" />
+          </ClangTidyCheckOption>
+          <ClangTidyCheckOption>
+            <option name="optionName" value="modernize-use-default-member-init.UseAssignment" />
+            <option name="optionValue" value="1" />
+          </ClangTidyCheckOption>
+        </list>
+      </option>
+      <option name="clangTidyChecks" value="readability-identifier-naming,modernize-loop-convert,modernize-redundant-void-arg,modernize-replace-auto-ptr,modernize-use-auto,modernize-use-bool-literals,modernize-use-default-member-init,modernize-use-nullptr,modernize-use-override,modernize-use-using,readability-magic-numbers,readability-non-const-parameter,readability-static-definition-in-anonymous-namespace,readability-static-accessed-through-instance,readability-redundant-member-init,readability-misplaced-array-index,readability-misleading-indentation,readability-inconsistent-declaration-parameter-name,google-explicit-constructor" />
+    </inspection_tool>
+    <inspection_tool class="OCInconsistentNamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="UnusedIncludeDirective" enabled="true" level="WARNING" enabled_by_default="true" />
+  </profile>
+</component>
