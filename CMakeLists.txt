@@ -50,11 +50,8 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
 add_message_files(
         FILES
-        Custom_3axes.msg
-        Custom_4axes.msg
-        Custom_box_arm.msg
-        Custom_sheet_arm.msg
-        Custom_led.msg
+        Custom_harurobo2021.msg
+        Custom_pid.msg
         #   Message1.msg
         #   Message2.msg
 )

@@ -1,0 +1,9 @@
+bool auth
+bool omni_sneak
+bool box_arm_lscoop
+bool box_arm_rscoop
+int32 box_arm_ud
+bool sheet_arm_hold
+float64 sheet_arm_spin
+int32 sheet_arm_ud
+bool led_flash
